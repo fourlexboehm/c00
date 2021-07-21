@@ -10,5 +10,6 @@ void	ft_putchar(char c)
 and a length */	
 
 /*int	main(){
-	ft_putchar('a');
-}*/
+	ft_putchar('a'); }
+*/
+

@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void	ft_print_alphabet(void)
+void	ft_print_numbers(void)
 {
 	char	number;
 
@@ -15,7 +15,7 @@ void	ft_print_alphabet(void)
 /*
 int	main(void)
 {
-	ft_print_alphabet();
-	return (1);
+	ft_print_numbers();
+	return (0);
 }
 */
