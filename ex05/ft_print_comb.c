@@ -3,6 +3,7 @@
 /* increment c when  c <= 9, then write a, b and c to sdout
 then increment b while b <=8 then incremet a while it is 
 <=7* writing ", " between each number */
+
 void	ft_print_comb(void)
 {
 	int	a;
@@ -21,7 +22,7 @@ void	ft_print_comb(void)
 				write(1, &a, 1);
 				write(1, &b, 1);
 				write(1, &c, 1);
-				if (a != 7 || a != 8 || b != 9)
+				if (a != '7' || b != '8' || c != '9')
 					write(1, ", ", 2);
 				c++;
 			}
@@ -31,10 +32,7 @@ void	ft_print_comb(void)
 	}
 }
 
-/*
-int	main(void)   //uncoment main to test
+int main(void)
 {
 	ft_print_comb();
-	return (0);
 }
-*/
