@@ -13,4 +13,3 @@ and a length */
 	ft_putchar('a'); }
 	return(0)
 */
-
