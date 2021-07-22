@@ -12,8 +12,8 @@ void	ft_print_comb(void)
 	a = '0';
 	while (a <= '7')
 	{
-		b = a;
-		while (b++ <= '8')
+		b = a +1
+		while (b <= '8')
 		{
 			c = b + 1;
 			while (c <= '9')
@@ -25,6 +25,7 @@ void	ft_print_comb(void)
 					write(1, ", ", 2);
 				c++;
 			}
+			b++;
 		}
 		a++;
 	}
